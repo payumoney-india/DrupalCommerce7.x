@@ -129,7 +129,7 @@ function commerce_payumoney_redirect_form($form, &$form_state, $order, $payment_
     $url = url('https://secure.payu.in/_payment');
   }
   else {
-    $url = url('https://test.payu.in/_payment');
+    $url = url('https://sandboxsecure.payu.in/_payment');
   }
   // Form elements for submission.
   foreach ($data as $key => $value) {
